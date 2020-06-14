@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Programação Lives</string>
+    <string name="artist_image">Imagem do artista</string>
+    <string name="generic_error_message">Erro ao buscar programação de lives. Tente novamente mais tarde :(</string>
+    <string name="network_error_message">Sem conexão de rede :(</string>
+    <string name="rate_error_message">Não foi possível ir para a avaliação do aplicativo</string>
+    <string name="link_error_message">Não foi possível abrir o link dessa live</string>
+    <string name="sunday">domingo</string>
+    <string name="monday">segunda-feira</string>
+    <string name="tuesday">terça-feira</string>
+    <string name="wednesday">quarta-feira</string>
+    <string name="thursday">quinta-feira</string>
+    <string name="friday">sexta-feira</string>
+    <string name="saturday">sábado</string>
+    <string name="today">HOJE</string>
+    <string name="tomorrow">AMANHÃ</string>
+    <string name="time_to_be_defined">Horário a definir</string>
+    <string name="share_action">Enviar para um amigo</string>
+    <string name="rate_action">Avaliar no Google Play</string>
+    <string name="share_app_message">Oi, tudo bem? Acompanhe todas as lives dos artistas com esse aplicativo rápido e prático! Baixe gratuitamente em </string>
+    <string name="share_link">Compartilhar</string>
+    <string name="message_list_empty_state">Não existem lives agendadas</string>
+</resources>

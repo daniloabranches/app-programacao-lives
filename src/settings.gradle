@@ -1,0 +1,5 @@
+rootProject.name='Programação Lives'
+include ':app'
+include ':domain'
+include ':data'
+include ':configuration'
