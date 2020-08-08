@@ -13,12 +13,10 @@ class ScheduleDataRepository(private val retrofit: Retrofit) : ScheduleRepositor
     }
 
     private fun map(lives: List<Live>): List<com.programacaolives.domain.entity.Live> {
-        val baseImagesUrl = "${retrofit.baseUrl().url()}images/"
-
         return lives.map {
             com.programacaolives.domain.entity.Live(
                 it.name,
-                baseImagesUrl + it.image_name,
+                it.image_name,
                 it.date,
                 it.link,
                 it.no_set_time

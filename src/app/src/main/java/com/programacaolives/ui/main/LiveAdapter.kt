@@ -69,7 +69,7 @@ class LiveAdapter(
             cardView.txt_live_hour.text = DateUtils.extractFormattedHour(live.date)
         }
 
-        cardView.image_artist.load(live.imageUrl)
+        cardView.image_artist.load(live.imageName)
     }
 
     private fun extractFormattedDate(context: Context, date: Date) =
